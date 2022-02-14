@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Convention Center</title>
+    <link rel="shortcut icon" href="./icons/house.png" type="image/x-icon">
+    <!-- bootsrtap css link  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body> 
+    <!-- start of header  -->
+    <header >
+        <!-- navbar start  -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid me-lg-5 ms-lg-5 mt-4">
+                <div class="d-flex justify-content-between">
+                    <a class="text-black text-decoration-none" href="#">
+                        <h2 class="text-wrap fw-bold">Beauty Convention Center</h2>
+                    </a>
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="./icons/menu-2 1.svg" alt="">
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center d-flex">
+                        <li class="nav-item mx-lg-3">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item mx-lg-3">
+                            <a class="nav-link active" href="#">Product</a>
+                        </li>
+                        <li class="nav-item mx-lg-3">
+                            <a class="nav-link active" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item mx-lg-3">
+                            <a class="nav-link active" href="#">Contatc Us</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar end  -->
+        <!-- carousel start  -->
+        <div id="carouselExampleCaptions" class="carousel slide mt-3" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="image1"></div>
+                    <div class="carousel-caption d-md-block">
+                        <h3>The perfect venue for your <br>
+                       next event</h3>
+                        <p>This is the best place to book for your special event.</p>
+                        <a href="https://www.google.com/" target="_blank"><button class="btn btn-light text-primary fw-bold ps-4 pe-4 ps-md-5 pe-md-5">Book Now</button> </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="image2"></div>
+                    <div class="carousel-caption d-md-block">
+                        <h3>Vibrant designs and ideas to Make<br>
+                        Your event meaningful</h3>
+                        <p>Just how you like your Birthday/Wedding/party to be celebrated.</p>
+                        <a href="https://www.google.com/" target="_blank"><button
+                                class="btn btn-light text-primary fw-bold ps-4 pe-4 ps-md-5 pe-md-5">Book Now</button> </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="image3"></div>
+                    <div class="carousel-caption d-md-block">
+                        <h3>Very cool and attractive <br>
+                        Interior designs</h3>
+                        <p>We serve you quality foods that you love to eat everyday.</p>
+                        <a href="https://www.google.com/" target="_blank"><button
+                                class="btn btn-light text-primary fw-bold ps-4 pe-4 ps-md-5 pe-md-5">Book Now</button> </a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- carousel end  -->
+    </header>
+    <!-- end of header  -->
+    <main class="mb-5">
+        <!-- our packages section start  -->
+        <!-- toast  -->
+        <div class="toast show align-items-center float-end" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="align-items-center d-flex">
+                <div class="toast-body">
+                    <p class="text-secondary m-0"> <img src="./icons/vector.svg" width="14px" alt=""> 20% off on next booking
+                    </p>
+                </div>
+                <button type="button" class="btn-close me-3 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+        </div>
+        <!-- toast end  -->
+        <section class="our-packages container mt-5">
+            <h1 class="text-center mt-5 pb-5 fw-bold">Our packages</h1>
+            <div class="row g-4">
+                <div class="col-lg-3 col-12 col-md-6">
+                    <div class="card border-0" style="width: 18rem;">
+                        <div class="card-body">
+                            <h2 class="price fw-bold">$300</h2>
+                            <h2 class="card-title fw-bold">Business fair</h2>
+                            <p class="card-text text-secondary">For most businesses event
+                            like book fair, craft fair.</p>
+                        </div>
+                        <ul class="list-group list-group-flush border-0">
+                            <li class="list-group-item border-0 text-secondary"> <img src="./icons/check.png" class="me-3" style="width: 17px;" alt="">limited space access</li>
+                            <li class="list-group-item border-0 text-secondary"> <img src="./icons/check.png" class="me-3" style="width: 17px;" alt="">Secuirty facility</li>
+                            <li class="list-group-item border-0 text-secondary"> <img src="./icons/check.png" class="me-3" style="width: 17px;" alt="">event support</li>
+                            <li class="list-group-item border-0 text-secondary"> <img src="./icons/check.png" class="me-3" style="width: 17px;" alt="">Decoration design</li>
+                            <li class="list-group-item border-0 text-secondary"> <img src="./icons/check.png" class="me-3" style="width: 17px;" alt="">Per day bill</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="https://www.google.com/" class="ps-3" target="_blank"><button
+                                    class="btn btn-light text-primary fw-bold ps-4 pe-4 ps-md-5 pe-md-5 rounded-pill">Choose Plan</button> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-md-6">
+                    <div class="card border-0" style="width: 18rem;">
+                        <div class="card-body">
+                            <h2 class="fw-bold">$500</h2>
+                            <h2 class="card-title fw-bold">wedding basic</h2>
+                            <p class="card-text text-secondary">For weddings with basic plan
+                            and limited item</p>
+                        </div>
+                        <ul class="list-group list-group-flush border-0">
+                            <li class="list-group-item border-0 text-secondary"> <img src="./icons/check.png" class="me-3" style="width: 17px;" alt="">Full space access</li>
+                            <li class="list-group-item border-0 text-secondary"> <img src="./icons/check.png" class="me-3" style="width: 17px;" alt="">Food arrangement</li>
+                            <li class="list-group-item border-0 text-secondary"> <img src="./icons/check.png" class="me-3" style="width: 17px;" alt="">mangement support</li>
+                            <li class="list-group-item border-0 text-secondary"> <img src="./icons/check.png" class="me-3" style="width: 17px;" alt="">Decoration design</li>
+                            <li class="list-group-item border-0 text-secondary"> <img src="./icons/check.png" class="me-3" style="width: 17px;" alt="">Billed as shift</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="https://www.google.com/" class="ps-3" target="_blank"><button
+                                    class="btn btn-light text-primary fw-bold ps-4 pe-4 ps-md-5 pe-md-5 rounded-pill">Choose Plan</button> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-md-6">
+                    <div class="card border-0 p-2" style="height: 30rem; width: 18rem; background: #3F87F5;box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+                    border-radius: 26px;">
+                        <div class="card-body text-light">
+                            <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger">
+                              Best Deal
+                            </span>
+                            <h2 class="fw-bold">$800</h2>
+                            <h2 class="card-title fw-bold">Wedding plus</h2>
+                            <p class="card-text ">For most weddings with premium plans</p>
+
+                                <p> <img src="./icons/check.png" class="me-3" style="width: 17px;" alt=""> Full space access</p>
+                                <p> <img src="./icons/check.png" class="me-3" style="width: 17px;" alt=""> Dedicated team</p>
+                                <p> <img src="./icons/check.png" class="me-3" style="width: 17px;" alt=""> Buffet food</p>
+                                <p> <img src="./icons/check.png" class="me-3" style="width: 17px;" alt=""> premium Decoration</p>
+                                <p> <img src="./icons/check.png" class="me-3" style="width: 17px;" alt=""> pay as plan</p>
+                                <a href="https://www.google.com/" class="ps-3" target="_blank"><button
+                                        class="btn text-dark bg-white fw-bold ps-4 pe-4 ps-md-5 pe-md-5 rounded-pill">Choose Plan</button> </a>
+                        </div>
+                        
+                        <div class="card-body">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-md-6">
+                    <div class="card border-0" style="width: 18rem;">
+                        <div class="card-body">
+                            <h2 class="fw-bold">$1200</h2>
+                            <h2 class="card-title fw-bold">Custom event</h2>
+                            <p class="card-text text-secondary">For most corporate business
+                            events</p>
+                        </div>
+                        <ul class="list-group list-group-flush border-0">
+                            <li class="list-group-item border-0 text-secondary"> <img src="./icons/check.png" class="me-3" style="width: 17px;" alt="">Full space access</li>
+                            <li class="list-group-item border-0 text-secondary"> <img src="./icons/check.png" class="me-3" style="width: 17px;" alt="">Dedicated team</li>
+                            <li class="list-group-item border-0 text-secondary"> <img src="./icons/check.png" class="me-3" style="width: 17px;" alt="">Buffet food</li>
+                            <li class="list-group-item border-0 text-secondary"> <img src="./icons/check.png" class="me-3" style="width: 17px;" alt="">premium Decoration</li>
+                            <li class="list-group-item border-0 text-secondary"> <img src="./icons/check.png" class="me-3" style="width: 17px;" alt="">pay as plan</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="https://www.google.com/" class="ps-3" target="_blank"><button
+                                    class="btn btn-light text-primary fw-bold ps-4 pe-4 ps-md-5 pe-md-5 rounded-pill">Choose Plan</button> </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- our packages section end  -->
+        <!-- FAQ section start  -->
+        <section class="container mt-5 pt-4">
+            <h1 class="pt-5 text-center pb-5 fw-bold">Frequently Asked Questions</h1>
+            <div class="row d-flex flex-column-reverse flex-md-row">
+                <div class="col-12 col-md-6">
+                    <div class="accordion ms-5 w-75" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button fw-bold border-0 text-dark bg-white shadow-none" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                What’s the difference between event design and event planning?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    <p class="text-secondary">Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made
+                                    events. This means we incorporate both event design and event planning to create that perfect event.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button fw-bold collapsed border-0 text-dark bg-white shadow-none" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                How do I book my event?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <p class="text-secondary">To book a space, submit your event info through the form on the website. We will email you with more information on how
+                                    to proceed. For information on venues or to book a room, visit our Floor Plans page.</p>
+                                </div>
+                            </div>
+                        </div><div class="accordion-item border-0">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button fw-bold collapsed border-0 text-dark bg-white shadow-none" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    How far in advance should I register as a vendor?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    <p class="text-secondary">To ensure a spot in the event, you'll want to register as a vendor as soon as
+                                        possible. Vendor space often sells out
+                                        quickly so act fast! For more information on how to become a vendor, visit our Exhibitors Event
+                                        Registration Page.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="./images/people.png" class=" w-100 mt-5 mt-md-0" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- FAQ section end  -->
+        <!-- extra work  -->
+        <section class="container mt-5">
+            <h1 class="fw-bold text-center mb-5">Get Direction</h1>
+            <div class="d-flex flex-column flex-lg-row align-items-center justify-content-evenly">
+                <div class="map-responsive">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.5535011323623!2d90.41767085043134!3d23.763296584507316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7878567b2b9%3A0x74a352f0aac9deba!2sMaliha%20Convention%20Center!5e0!3m2!1sen!2sbd!4v1643021025016!5m2!1sen!2sbd"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div>
+                    <h2 class="fw-bold text-center">Give Feedback</h2>
+                    <form>
+                        <div class="form-outline mb-4">
+                            <input type="text" id="form4Example1" class="form-control" />
+                            <label class="form-label" for="form4Example1">Name</label>
+                        </div>
+                        <div class="form-outline mb-4">
+                            <input type="email" id="form4Example2" class="form-control" />
+                            <label class="form-label" for="form4Example2">Email address</label>
+                        </div>
+                        <div class="form-outline mb-4">
+                            <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                            <label class="form-label" for="form4Example3">Message</label>
+                        </div>
+                        <div class="form-check d-flex justify-content-center mb-4">
+                            <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+                            <label class="form-check-label" for="form4Example4">
+                                Send me a copy of this message
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- extra work end  -->
+    </main>
+    <!-- footer start  -->
+    <footer class=" text-center text-lg-start">
+        <div class=" ps-0 ps-md-5 pe-0 pe-md-5 p-3 d-flex flex-column flex-md-row align-items-center justify-content-md-between" style="background-color: #0B0D17;">
+            <p class="text-light">
+                &copy;2022 Copyright:<a class="text-decoration-none text-light ps-2" href="https://github.com/juhayerayaz">Juhayer Ayaz</a>
+            </p>
+            <div class="d-flex flex-column pe-0 pe-md-5">
+                <p class="text-light ps-3">Get The App</p>
+                <a href="https://play.google.com/store/apps/details?id=com.riotgames.league.wildrift&hl=en&gl=US" target="_blank" class="text-decoration-none">
+                    <img src="./icons/footer1.png" alt="">
+                </a>
+                <a href="https://apps.apple.com/us/app/programming-hero-coding-fun/id1478201849" target="_blank" class="text-decoration-none">
+                    <img src="./icons/footer2.png" alt="">
+                </a>
+                
+            </div>
+        </div>
+    </footer>
+    <!-- footer end  -->
+    <!-- js bundle link  -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

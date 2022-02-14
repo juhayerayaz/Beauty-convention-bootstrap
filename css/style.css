@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.image1 {
+  background: url(banner.png) center/cover no-repeat;
+  height: 80vh;
+  position: relative;
+}
+.image2 {
+  background: url(wedding2.jpg) center/cover no-repeat;
+  height: 80vh;
+  position: relative;
+}
+.image3 {
+  background: url(wedding3.jpg) center/cover no-repeat;
+  height: 80vh;
+  position: relative;
+}
+@media only screen and (max-width: 668px) {
+  .map-responsive {
+    overflow: hidden;
+
+    padding-bottom: 56.25%;
+
+    position: relative;
+  }
+
+  .map-responsive iframe {
+    left: 0;
+
+    top: 0;
+
+    width: 100%;
+  }
+}
